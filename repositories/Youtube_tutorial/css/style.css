@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: black;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p{
+	color: #fff;
+}
+
+a{
+	color: #7A7A7A;
+}
+
+a:visited, a:linked{
+	color: #1BAE9A;
+}
+
+a:hover, a:active{
+	color:#09433B;
+}
+
+/* Header */
+.main-header{
+	width: 100%;
+	height:50px;
+	border-bottom: medium solid #611616;
+	overflow:hidden;
+}
+
+.main-header nav{
+	width: 1000px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.main-header nav ul{
+}
+
+.main-header nav ul li{
+	display: inline;
+	float: left;
+	padding: 17px 25px;
+}
+
+.main-header nav a:linked, .main-header nav a:visited{
+	color: #611616;
+}
+
+.main-header nav a:hover, .main-header nav a:active{
+	text-shadow:none;
+	color: #611616;
+	cursor: pointer;
+}
+.selected{
+	color: #611616;
+}
+
+.search input{
+	padding:5px;
+	margin-top: 10px;
+	margin-left: 100px;
+	float:left;
+	background: #000;
+	border: thin solid #611616;
+	color: white;
+	outline: none;
+	border-radius: 25px;
+	text-align:center;
+}
+
+.search input:focus{
+	text-align:left;
+}
+
+#aboutdiv, #contactdiv{
+	margin-left:auto;
+	margin-right:auto;
+	border-left: 3px solid #611616;
+	border-right: 3px solid #611616;
+	border-bottom: 3px solid #611616;
+	width: 1000px;
+	height: 200px;
+	padding: 20px;
+	display:none;
+}
+
+.freechampions{
+	padding: 10px;
+	width: 980px;
+	margin-top: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 2px solid #611616;
+	color: white;
+}
+
+.freechampionshead{
+	padding:8px;
+	border-bottom: 2px solid white;
+	font-size: 25px;
+	text-align:center;
+}
+
+.freechampionshead h2{
+	margin-bottom: 3px;
+}
+
+.freechampionsbody{
+	padding: 5px;
+}
+
+.freechampionsbody img{
+	width:90px;
+	height: 160px;
+	margin-left: 2.3px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor:pointer;
+}
+
+.freechampioninfo{
+	padding: 30px;
+	border-top: 2px solid #fff;
+	margin-top: 5px;
+	display: none;
+}
+#close{
+	float:right;
+	cursor:pointer;
+}
