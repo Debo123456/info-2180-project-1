@@ -1,10 +1,9 @@
 // JavaScript Document
 $(document).ready(function(e) {
-    $(".main-header nav ul a").click(function(){
-		$(".main-header nav ul a").each(function(index, element) {
+    $("nav ul a").click(function(){
+		$("nav ul a").each(function(index, element) {
         	$(this).removeClass('selected');
     	});
-		
 		if($(this).is('#about'))
 		{
 			if($('#aboutdiv').is(':hidden'))
