@@ -8,7 +8,18 @@
 
 
 <!--Body of the page-->
-<?php require_once "/inc/freechampions.php" ?>
+<div id="wrapper">
+
+	<?php require_once "/inc/freechampions.php" ?>
+
+	<div class="left">
+    	<?php require_once "/inc/homenews.php" ?>
+    </div>
+
+    <div class="right">
+        <?php require_once "/inc/latestarticles.php" ?>
+    </div>
+
 
 <!--Footer of the page-->
 <?php require_once "/inc/footer.php" ?>

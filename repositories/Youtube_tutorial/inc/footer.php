@@ -1,3 +1,7 @@
+
+
+</div>
+
 <script>
 	function championinfo(name){
 		

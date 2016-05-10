@@ -16,7 +16,7 @@
         </form>
     </div>
     <header class="main-header">
-        <nav>
+        <nav class="menu">
             <ul class="cf">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">News</a></li>
