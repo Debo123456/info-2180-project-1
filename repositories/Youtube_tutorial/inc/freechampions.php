@@ -18,6 +18,6 @@
         
         
         </div>
-        <a id="close">x</a>
+        <a class="close">x</a>
     </div>
 </div>

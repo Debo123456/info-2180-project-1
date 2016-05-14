@@ -9,4 +9,4 @@
 </head>
 
 <body>
-<?php require_once "inc/phpfunctions.php" ?>
+<?php require_once "phpfunctions.php" ?>
