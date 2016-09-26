@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	margin: 5% 20px;
+	padding: 10px;
+}
+header{
+	width: 100%;
+	height:auto;
+	border-bottom: 1px solid #999;
+}
+
+h2{
+	margin:0;
+}
+
